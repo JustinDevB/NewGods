@@ -18,9 +18,6 @@ commands:
   gleave:
     description: Abandon the god you worship
     usage: /gleave
-  ghome:
-    description: Teleports you to your gods temple
-    usage: /ghome
   gods:
     description: Opens the god interface
     usage: /gods    
@@ -36,9 +33,6 @@ commands:
   gdemote:
     description: Demote a member in your religion if your the leader
     usage: /gdemote
-  gsethome:
-    description: Sets the home teleport position
-    usage: /gsethome
   ginvite:
     description: Invites player to your religion
     usage: /ginvite
@@ -54,9 +48,6 @@ commands:
   gplugin:
     description: Get information about this plugin
     usage: /gplugin
-  gmarrytp:
-    description: Teleports you to your husband/wife
-    usage: /gmarrytp
   gmarrygift:
     description: Gives your husband/wife the item your holding
     usage: /gmarrygift

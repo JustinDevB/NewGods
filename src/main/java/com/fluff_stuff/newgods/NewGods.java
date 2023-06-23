@@ -132,10 +132,10 @@ public class NewGods extends JavaPlugin {
 		if(allowMarriges){getCommand("gmarry").setExecutor(new Marry());}
 		if(allowMarriges){getCommand("gdivorce").setExecutor(new Divorce());}
 		getCommand("gleave").setExecutor(new Leave());
-		getCommand("ghome").setExecutor(new Home());
+	//	getCommand("ghome").setExecutor(new Home());
 		getCommand("gaccept").setExecutor(new Accept());
 		getCommand("gdeny").setExecutor(new Deny());
-		getCommand("gsethome").setExecutor(new SetHome());
+		//getCommand("gsethome").setExecutor(new SetHome());
 		getCommand("grank").setExecutor(new Rank());
 		getCommand("gdemote").setExecutor(new Demote());
 		getCommand("ginvite").setExecutor(new Invite());
@@ -143,7 +143,7 @@ public class NewGods extends JavaPlugin {
 		getCommand("gbuy").setExecutor(new Buy());	
 		getCommand("gsacrifice").setExecutor(new Sacrifice());	
 		getCommand("gplugin").setExecutor(new Plugin());
-		if(allowMarriges){getCommand("gmarrytp").setExecutor(new MarryTP());}
+		//if(allowMarriges){getCommand("gmarrytp").setExecutor(new MarryTP());}
 		if(allowMarriges){getCommand("gmarrygift").setExecutor(new MarryGift());}
 		getCommand("gtype").setExecutor(new Type());
 	}
